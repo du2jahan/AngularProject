@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd"  >
+
+<hibernate-configuration>
+	<session-factory>
+	
+		<property name="hibernat.connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="hibernat.connection.url">jdbc:mysql://localhost:3306/banglatiger</property>
+		<property name="hibernat.connection.username">root</property>
+		<property name="hibernat.connection.password">root</property>
+
+		<property name="hibernat.connection.pool_size">1</property>
+		<property name="hibernat.dialect">org.hibernate.dialect.MySQLDialect</property>
+		<property name="hibernat.current_session_context_class">thread</property>
+		<property name="hibernat.cache.provider_class">org.hibernate.cache.NoCacheProvider</property>
+		<property name="hibernat.show_sql">true</property>
+		<property name="hibernat.hbm2ddl.auto">validate</property>
+
+		<mapping class="main.entity.User"  resource="user.hbm.xml" />
+		
+	</session-factory>
+
+</hibernate-configuration>
