@@ -1,0 +1,23 @@
+body {
+	background: appworkspace;
+}
+
+#main {
+	margin: auto;
+	width: 60%;
+	border: 3px solid #73AD21;
+	padding: 10px;
+	height: 100%;
+	/*border: 4px solid;*/
+}
+
+#head {
+	text-align: center;
+	border: 2px solid;
+	font-size: 24px;
+}
+
+#footer {
+	text-align: center;
+	border: 2px solid;
+}
