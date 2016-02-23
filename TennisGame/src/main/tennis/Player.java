@@ -1,5 +1,7 @@
 package main.tennis;
-
+/*Player Class: Tennis Player Class 
+ * Player class Include name and Score Attributes
+ */
 public class Player {
 	private String name;
 	private int score;
